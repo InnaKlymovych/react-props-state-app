@@ -1,0 +1,26 @@
+:root{
+  --lightColor: white;
+  --darcColor: black;
+  --accetColor: rgb(82, 116, 99);
+
+  --primaryFont: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  --accetFont: "arial"
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1.6rem;
+  font-size: 1rem;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--accetColor);
+}
+

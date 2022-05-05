@@ -1,0 +1,40 @@
+
+:root{
+  --lightColor: white;
+  --darcColor: black;
+  --accetColor: rgb(82, 116, 99);
+
+  --primaryFont: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  --accetFont: "arial"
+}
+
+div#root{
+  display:flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+header{
+  background-color: var(--lightColor);
+  color:var(--darcColor);
+  font-size: 30px;
+
+}
+
+h1{
+  text-align: center;
+  font-size: 30px;
+  color: var(--accetColor)
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
